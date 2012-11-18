@@ -1,0 +1,6 @@
+RewriteEngine on
+#RewriteBase /
+Options FollowSymLinks
+RewriteCond $1 !^(index\.php|media|robots\.txt|phpmyadmin) [NC]
+RewriteRule ^(.*)$ /index.php/$1 [L]
+RewriteRule ^index.php/$ /index.php [L]

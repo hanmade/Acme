@@ -1,0 +1,24 @@
+.acme-carousel {
+	width: 950px;
+	padding-left: 100px;
+}
+
+.acme-carousel .item {
+	width: 800px;
+	padding-left: 75px;
+}
+
+.carousel-caption {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 75px;
+  padding: 15px;
+  background: #333333;
+  background: rgba(0, 0, 0, 0.75);
+}
+
+.login {
+	text-align: right;
+}
+
